@@ -36,11 +36,12 @@ body {
     max-width: 600px;
     min-height: 500px;
     padding: 20px;
-    background-color: whitesmoke;
     border: 5px solid black;
     border-radius: 30px;
-
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-papel-grunge-vintage_1048-10911.jpg?w=360&t=st=1699026218~exp=1699026818~hmac=36f09d341269318ffa565423537cd2d54bb7ac7b3e7b81c702ec9ca43f33895c");
+   
 }
+
 
 .contenedor-interno {
     width: 80%;
@@ -54,8 +55,30 @@ body {
     font-weight: bold;
     text-align: center;
     font-family: 'Courgette', cursive;
-
+    user-select: none;
 }
+    .ribbon {
+    --s: 1.8em; /* the ribbon size */
+    --d: .8em;  /* the depth */
+    --c: .8em;  /* the cutout part */
+    
+    padding: 0 calc(var(--s) + .5em) var(--d);
+    line-height: 1.8;
+    background:
+      conic-gradient(at left  var(--s) bottom var(--d),
+       #0000 25%,#0008 0 37.5%,#0004 0) 0   /50% 100% no-repeat,
+      conic-gradient(at right var(--s) bottom var(--d),
+       #0004 62.5%,#0008 0 75%,#0000 0) 100%/50% 100% no-repeat;
+    clip-path: polygon(0 var(--d), var(--s) var(--d),var(--s) 0,calc(100% - var(--s)) 0,calc(100% - var(--s)) var(--d),100% var(--d),calc(100% - var(--c)) calc(50% + var(--d)/2),100% 100%,calc(100% - var(--s) - var(--d)) 100%,calc(100% - var(--s) - var(--d)) calc(100% - var(--d)),calc(var(--s) + var(--d)) calc(100% - var(--d)),calc(var(--s) + var(--d)) 100%,0 100%,var(--c) calc(50% + var(--d)/2));
+    background-color: #ed5d69; /* the main color */
+    width: fit-content;
+    
+  }
+
+ 
+
+
+
 
 #cita {
     font-size: 32px;
@@ -82,6 +105,14 @@ body {
     width: 180px;
     height: 50px;
     font-size: 20px;
+    background-color: #ed5d69;
+    border: none;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    color: inherit;;
+  
   }  
+
+  
 
   

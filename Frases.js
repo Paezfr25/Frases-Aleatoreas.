@@ -126,5 +126,15 @@ let citas = [
     {
       'autor': 'Anonimo',
       'texto': 'Con un pequeño paso al día estas avanzando hacia tu objetivo.'
+    },
+    {
+      'autor': 'Walt Disney',
+      'texto': 'Si puedes soñarlo, puedes hacerlo.'
+    },   
+    {
+      'autor': 'Steve Jobs',
+      'texto': 'La innovación distingue al líder del seguidor.'
     }   
+
+
   ];
